@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="" />
+    <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/BilheteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/CadeiraRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/CanceladoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/EnderecoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/EspetaculoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/FilaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/TeatroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +27,12 @@
         <option value="spring-beans.schema" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/teatro-ucsal-v2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,6 +64,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;971aa8162b1f78a643bcfe5adb4f7749&quot;
   }
 }</component>
@@ -82,7 +95,8 @@
       <updated>1651693206650</updated>
       <workItem from="1651693207943" duration="8024000" />
       <workItem from="1651711519115" duration="1422000" />
-      <workItem from="1651714326964" duration="420000" />
+      <workItem from="1651714326964" duration="1099000" />
+      <workItem from="1651863628688" duration="321000" />
     </task>
     <servers />
   </component>
@@ -90,6 +104,9 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/teatro-ucsal-v2" />
+    </ignored-roots>
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
