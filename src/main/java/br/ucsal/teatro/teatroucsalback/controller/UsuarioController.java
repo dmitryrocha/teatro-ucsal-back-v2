@@ -13,18 +13,18 @@ import java.util.List;
 public class UsuarioController {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private UsuarioRepository repository;
     @Autowired
-    private UsuarioService usuarioService;
+    private UsuarioService service;
 
     @GetMapping
-    public List<UsuarioDto> lista() {
-        List<Usuario> usuarios = usuarioRepository.findAll();
-        return UsuarioDto.converter(usuarios);
+    public List<UsuarioDto> list() {
+        List<Usuario> usuarios = repository.findAll();
+        return UsuarioDto.conversor(usuarios);
     }
 
     @PostMapping
     public void save(@RequestBody UsuarioDto usuarioDto) {
-        usuarioService.save(usuarioDto);
+        service.save(usuarioDto);
     }
 }

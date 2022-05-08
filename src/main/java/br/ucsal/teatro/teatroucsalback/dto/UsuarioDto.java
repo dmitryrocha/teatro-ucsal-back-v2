@@ -33,7 +33,7 @@ public class UsuarioDto {
         this.estado = endereco.getEstado();
     }
 
-    public static List<UsuarioDto> converter(List<Usuario> usuarios) {
+    public static List<UsuarioDto> conversor(List<Usuario> usuarios) {
         return usuarios.stream().map(UsuarioDto::new).collect(Collectors.toList());
     }
 

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class UsuarioService {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private UsuarioRepository repository;
 
     public void save(UsuarioDto usuarioDto) {
         Usuario usuario = new Usuario();
@@ -28,6 +28,6 @@ public class UsuarioService {
         endereco.setEstado(usuarioDto.getEstado());
         usuario.setEndereco(endereco);
 
-        usuarioRepository.save(usuario);
+        repository.save(usuario);
     }
 }

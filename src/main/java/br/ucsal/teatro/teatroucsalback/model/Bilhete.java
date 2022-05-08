@@ -18,6 +18,7 @@ public class Bilhete {
     private boolean retirado;
     private double taxaDeEntrega;
     private double valorPago;
+    private Long idCadeira;
 
     public Long getId() {
         return id;
@@ -81,5 +82,13 @@ public class Bilhete {
 
     public void setValorPago(double valorPago) {
         this.valorPago = valorPago;
+    }
+
+    public Long getIdCadeira() {
+        return idCadeira;
+    }
+
+    public void setIdCadeira(Long idCadeira) {
+        this.idCadeira = idCadeira;
     }
 }
