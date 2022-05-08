@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/BilheteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/CadeiraRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/CanceladoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/EnderecoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/EspetaculoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/FilaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/TeatroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/UsuarioDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03e0e5de0a059669076ab8580ca1dfbaf65d107a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/repository/EnderecoRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,8 +57,9 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/src/workspace/ucsal/bd avançado/v2/teatro-ucsal-back/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/src/workspace/exercicios/santander/bankline-api/pom.xml&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -96,8 +95,17 @@
       <workItem from="1651693207943" duration="8024000" />
       <workItem from="1651711519115" duration="1422000" />
       <workItem from="1651714326964" duration="1099000" />
-      <workItem from="1651863628688" duration="321000" />
+      <workItem from="1651863628688" duration="2654000" />
+      <workItem from="1652027966545" duration="3078000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Repository classes">
+      <created>1651864111140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651864111140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +115,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/teatro-ucsal-v2" />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Added Repository classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Repository classes" />
   </component>
 </project>
