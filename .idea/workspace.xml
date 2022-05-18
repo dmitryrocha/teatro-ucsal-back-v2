@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/CadeiraController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/EspetaculoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/FilaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/CadeiraDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/EspetaculoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/FilaDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/CadeiraService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/EspetaculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/FilaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/EspetaculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/EspetaculoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/EspetaculoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/EspetaculoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +101,7 @@
       <workItem from="1652806766351" duration="112000" />
       <workItem from="1652875471921" duration="1527000" />
       <workItem from="1652881997722" duration="18000" />
+      <workItem from="1652907114722" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="Added Repository classes">
       <created>1651864111140</created>
@@ -131,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652036724613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="get and post added to all models">
+      <created>1652907171377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652907171377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +144,7 @@
     <MESSAGE value="Added Repository classes" />
     <MESSAGE value="User get and post now working" />
     <MESSAGE value="User and Teatro's get and post now working" />
-    <option name="LAST_COMMIT_MESSAGE" value="User and Teatro's get and post now working" />
+    <MESSAGE value="get and post added to all models" />
+    <option name="LAST_COMMIT_MESSAGE" value="get and post added to all models" />
   </component>
 </project>

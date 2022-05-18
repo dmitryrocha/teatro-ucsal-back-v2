@@ -35,7 +35,9 @@ public class EspetaculoService {
         List<Bilhete> listaBilhetes = new ArrayList<>();
         for(int x = 0; x < espetaculoDto.getBilhetesId().size(); x++) {
             Optional<Bilhete> bilhete = bilheteRepository.findById(espetaculoDto.getBilhetesId().get(x));
-            listaBilhetes.add(bilhete.get());
+            if(bilhete.isPresent()) {
+                listaBilhetes.add(bilhete.get());
+            }
         }
         espetaculo.setBilhetesVendidos(listaBilhetes);
 

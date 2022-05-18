@@ -25,6 +25,6 @@ public class EspetaculoController {
 
     @PostMapping
     public void save(@RequestBody EspetaculoDto espetaculoDto) {
-
+        service.save(espetaculoDto);
     }
 }
