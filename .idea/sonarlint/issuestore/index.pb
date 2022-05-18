@@ -1,6 +1,4 @@
 
-s
-Csrc/main/java/br/ucsal/teatro/teatroucsalback/model/Espetaculo.java,f\b\fbe20e7138b308e52caf66f6d8b36ee154de2bb5
 o
 ?src/main/java/br/ucsal/teatro/teatroucsalback/model/Teatro.java,3\9\39ceeaa6922f9c158e7849a08a5ab7bf5648cf4e
 s
@@ -11,3 +9,19 @@ Nsrc/main/java/br/ucsal/teatro/teatroucsalback/repository/TeatroRepository.java
 Osrc/main/java/br/ucsal/teatro/teatroucsalback/repository/BilheteRepository.java,e\2\e29743b3da191e4be04b622065b09686ca035dae
 
 Osrc/main/java/br/ucsal/teatro/teatroucsalback/repository/CadeiraRepository.java,d\2\d2f04bd8e209ba5357212ad0f83afed3c18d6a05
+r
+Bsrc/main/java/br/ucsal/teatro/teatroucsalback/model/Cancelado.java,8\5\85500e20dbc76aca36afe35f06977858736f4801
+Å
+Qsrc/main/java/br/ucsal/teatro/teatroucsalback/repository/CanceladoRepository.java,c\d\cdb80f4045fdce0a43d40686c5ef81f9ad154e04
+Ç
+Rsrc/main/java/br/ucsal/teatro/teatroucsalback/repository/EspetaculoRepository.java,d\b\db3b3d588a1b64cc1f1b3398a0119e4f8c7bf1d8
+|
+Lsrc/main/java/br/ucsal/teatro/teatroucsalback/repository/FilaRepository.java,2\1\213df9e4e1f53ec065faaddab7b5f04e9f7a6d01
+
+Osrc/main/java/br/ucsal/teatro/teatroucsalback/repository/UsuarioRepository.java,4\d\4d46bdf57132279357b8815ebf3cba67b1974b36
+p
+@src/main/java/br/ucsal/teatro/teatroucsalback/dto/TeatroDto.java,f\5\f5e09e469cf093b7b1b0eb86d8c3759723da1e03
+~
+Nsrc/main/java/br/ucsal/teatro/teatroucsalback/controller/TeatroController.java,b\9\b995fe89252f949500df93c7c1f5134b9620c43f
+p
+@src/main/java/br/ucsal/teatro/teatroucsalback/model/Bilhete.java,5\3\539355f0ebcd60ac791d8e0355cd58980ae9897e

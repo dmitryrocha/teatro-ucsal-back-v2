@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/TeatroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/TeatroDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/TeatroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/CadeiraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/EspetaculoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/FilaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/CadeiraDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/EspetaculoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/FilaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/CadeiraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/EspetaculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/FilaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/UsuarioDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/dto/UsuarioDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/model/Bilhete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/model/Bilhete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/UsuarioService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +62,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/src/workspace/exercicios/santander/bankline-api/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/src/workspace/TJBA/srh2-web/srh2-web/pom.xml&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;971aa8162b1f78a643bcfe5adb4f7749&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ucsal.teatro.teatroucsalback.service" />
       <recent name="br.ucsal.teatro.teatroucsalback.dto" />
       <recent name="br.ucsal.teatro.teatroucsalback.model" />
     </key>
@@ -97,7 +101,14 @@
       <workItem from="1651711519115" duration="1422000" />
       <workItem from="1651714326964" duration="1099000" />
       <workItem from="1651863628688" duration="2654000" />
-      <workItem from="1652027966545" duration="6067000" />
+      <workItem from="1652027966545" duration="10009000" />
+      <workItem from="1652196107802" duration="784000" />
+      <workItem from="1652214237940" duration="128000" />
+      <workItem from="1652294193320" duration="2532000" />
+      <workItem from="1652646702256" duration="1779000" />
+      <workItem from="1652806766351" duration="112000" />
+      <workItem from="1652875471921" duration="1527000" />
+      <workItem from="1652881997722" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Added Repository classes">
       <created>1651864111140</created>
@@ -113,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652031571637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="User and Teatro's get and post now working">
+      <created>1652036724613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652036724613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +143,7 @@
     </ignored-roots>
     <MESSAGE value="Added Repository classes" />
     <MESSAGE value="User get and post now working" />
-    <option name="LAST_COMMIT_MESSAGE" value="User get and post now working" />
+    <MESSAGE value="User and Teatro's get and post now working" />
+    <option name="LAST_COMMIT_MESSAGE" value="User and Teatro's get and post now working" />
   </component>
 </project>
