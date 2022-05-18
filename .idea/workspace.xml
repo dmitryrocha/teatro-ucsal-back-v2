@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/EspetaculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/controller/EspetaculoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/EspetaculoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ucsal/teatro/teatroucsalback/service/EspetaculoService.java" afterDir="false" />
-    </list>
+    <list default="true" id="24793941-23a2-45bb-b27f-15b066adedf1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +97,7 @@
       <workItem from="1652806766351" duration="112000" />
       <workItem from="1652875471921" duration="1527000" />
       <workItem from="1652881997722" duration="18000" />
-      <workItem from="1652907114722" duration="792000" />
+      <workItem from="1652907114722" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="Added Repository classes">
       <created>1651864111140</created>
@@ -131,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652907171377</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Optional bug on EspetaculoService fixed and EspetaculoController now saves a postmapping">
+      <created>1652908119759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652908119759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +148,7 @@
     <MESSAGE value="User get and post now working" />
     <MESSAGE value="User and Teatro's get and post now working" />
     <MESSAGE value="get and post added to all models" />
-    <option name="LAST_COMMIT_MESSAGE" value="get and post added to all models" />
+    <MESSAGE value="Optional bug on EspetaculoService fixed and EspetaculoController now saves a postmapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optional bug on EspetaculoService fixed and EspetaculoController now saves a postmapping" />
   </component>
 </project>

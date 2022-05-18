@@ -29,7 +29,9 @@ public class FilaService {
         List<Cadeira> cadeiras = new ArrayList<>();
         for(int i = 0; i < filaDto.getCadeirasId().size(); i++) {
             Optional<Cadeira> cadeira = cadeiraRepository.findById(filaDto.getCadeirasId().get(i));
-            cadeiras.add(cadeira.get());
+            if(cadeira.isPresent()) {
+                cadeiras.add(cadeira.get());
+            }
         }
         fila.setCadeiras(cadeiras);
         Teatro teatro = teatroRepository.findById(filaDto.getTeatroId()).orElse(null);
