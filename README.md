@@ -11,7 +11,7 @@
 
 - [ ] Ana Carla Miranda
 - [ ] Anderson Andrei Araújo
-- [ ] Dimitri Rocha e Silva
+- [ ] Dmitry Rocha e Silva
 - [ ] João Lucas Requião
 - [ ] Murillo Caetano Jesus
 
