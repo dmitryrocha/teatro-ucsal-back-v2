@@ -7,7 +7,7 @@
 
 <hr>
 
-## 🤝 Grupo:
+## 🤝 Grupo
 
 - [ ] Ana Carla Miranda
 - [ ] Anderson Andrei Araújo
